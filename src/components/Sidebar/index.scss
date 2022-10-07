@@ -94,12 +94,6 @@
         content: 'CONTACT';
       }
     }
-
-    a.active {
-      svg {
-        color: #f58e07;
-      }
-    }
   }
 
   ul {
@@ -121,6 +115,7 @@
 
         &:hover svg {
           color: #f58e07;
+          background-color: #f58e07;
         }
       }
     }
