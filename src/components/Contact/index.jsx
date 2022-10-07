@@ -45,9 +45,8 @@ const Contact = () => {
           </h1>
           <p>
             I am interested in employment opportunities, mentorship or just
-            generally kind words. If you have these, or any other
-            requests/questions, don't hesitate to contact me using the form
-            below.
+            generally kind words. If you have these, or anything else to say ,
+            don't hesitate to contact me using the form below.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
