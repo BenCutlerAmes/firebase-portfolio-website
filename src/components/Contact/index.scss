@@ -1,6 +1,7 @@
 .contact-form {
   width: 100%;
   margin-top: 20px;
+  font-family: 'Roboto Mono';
 
   ul {
     padding: 0;
@@ -36,10 +37,11 @@
     border:0;
     background: #115173;
     height: 50px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     padding:0 20px;
     box-sizing: border-box;
+    font-family: 'Roboto mono';
   }
   textarea{
     width: 100%;
