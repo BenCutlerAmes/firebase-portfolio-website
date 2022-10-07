@@ -1,4 +1,4 @@
-string = 'Software Developer / Career Changer / CodeClan Graduate'
+string = 'About Me'
 array = []
 
 for letter in string:
