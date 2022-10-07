@@ -17,7 +17,12 @@ const Sidebar = () => {
         <img src={logo} alt="logo" />
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          to="/"
+          className="home-link"
+        >
           <FontAwesomeIcon icon={faHouseChimney} color="#4d4d4e" />
         </NavLink>
         <NavLink
@@ -48,14 +53,23 @@ const Sidebar = () => {
 
       <ul>
         <li>
-          <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/bencutlerames/">
-          <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/></a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/bencutlerames/"
+          >
+            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+          </a>
         </li>
         <li>
-          <a target="_blank" rel='noreferrer' href="https://github.com/BenCutlerAmes">
-          <FontAwesomeIcon icon={faGithub} color='#4d4d4e'/></a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/BenCutlerAmes"
+          >
+            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          </a>
         </li>
-
       </ul>
     </div>
   )
