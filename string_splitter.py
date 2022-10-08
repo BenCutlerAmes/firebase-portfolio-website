@@ -1,4 +1,4 @@
-string = 'Contact Me'
+string = 'Portfolio'
 array = []
 
 for letter in string:
