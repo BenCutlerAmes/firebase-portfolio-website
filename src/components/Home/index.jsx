@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters/index'
 
+import logo from '../../assets/images/bigface.png'
+
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = [
@@ -45,10 +47,11 @@ const Home = () => {
         <br />
         <Link to="/contact" className="flat-button">
           Contact Me
-
         </Link>
       </div>
- 
+      <div className='home-logo'>
+        <img src={logo} alt="logo" />
+      </div> 
     </div>
   )
 }

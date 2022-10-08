@@ -37,13 +37,29 @@ h2 {
   margin-top: 30px;
   white-space: nowrap;
   transition: 0.5s ease-in-out;
-  float:right;
+  float: right;
 
-
-  &:hover{
+  &:hover {
     background-color: #ff731d;
     color: black;
     border: black;
     font-size: 24px;
+  }
+
+  .home-logo {
+    img {
+      width: 50px;
+    }
+  }
+}
+.home-logo {
+  max-width: 40%;
+  margin-left: 60%;
+
+  img {
+    right:0;
+    width: 70%;
+    margin: 10%;
+    border-radius: 20px;
   }
 }
