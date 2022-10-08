@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters/index'
 
 import logo from '../../assets/images/bigface.png'
+import headshot from '../../assets/images/headshot.jpeg'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -26,10 +27,9 @@ const Home = () => {
     's',
   ]
 
-  setTimeout(()=>{
-      setLetterClass('text-animate-hover')},3000)
-    
-  
+  setTimeout(() => {
+    setLetterClass('text-animate-hover')
+  }, 3000)
 
   return (
     <div className="container home-page">
@@ -41,17 +41,22 @@ const Home = () => {
             idx={15}
           />
         </h1>
-        <h2>
-        Software Developer / CodeClan Graduate / All Round Good-Guy
-        </h2>{' '}
+        <h2>Software Developer / CodeClan Graduate / All Round Good-Guy</h2>{' '}
         <br />
         <Link to="/contact" className="flat-button">
           Contact Me
         </Link>
       </div>
-      <div className='home-logo'>
-        <img src={logo} alt="logo" />
-      </div> 
+      <div className="home-logo">
+        <div className="card middle">
+          <div className="front">
+            <img src={logo} alt="logo" />
+          </div>
+          <div className="back">
+            <img src={headshot} alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

@@ -3,6 +3,10 @@
   margin-top: 20px;
   font-family: 'Roboto Mono';
 
+  #contact-p {
+    font-family: 'Roboto Mono';
+  }
+
   ul {
     padding: 0;
     margin: 0;
@@ -32,22 +36,22 @@
     }
   }
   input[type='text'],
-  input[type='email']{
-    width:100%;
-    border:0;
+  input[type='email'] {
+    width: 100%;
+    border: 0;
     background: #115173;
     height: 50px;
     font-size: 18px;
     color: white;
-    padding:0 20px;
+    padding: 0 20px;
     box-sizing: border-box;
     font-family: 'Roboto mono';
   }
-  textarea{
+  textarea {
     width: 100%;
     border: 0;
     background: #115173;
-    height:50px;
+    height: 50px;
     font-size: 18px;
     color: white;
     padding: 20px;
@@ -55,8 +59,32 @@
     min-height: 150px;
     box-sizing: border-box;
   }
-  .flat-button{
-    background-color:#051d4e;
+  .flat-button {
+    background-color: #051d4e;
     border-radius: 4px;
   }
+}
+
+
+#contact-p {
+  font-family: 'Roboto Mono';
+}
+
+
+.map-wrap{
+  background: rgba(8,253,216,0.1);
+  float: right;
+  width: 46%;
+  height: 100%;
+  margin-right: 2%;
+}
+
+.leaflet-container{
+  width: 100%;
+  height:100%;
+  position: relative;
+  opacity: 0;
+  animation: fadeIn 1s 1.2s;
+  animation-fill-mode: forwards;
+
 }
