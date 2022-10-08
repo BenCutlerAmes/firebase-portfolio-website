@@ -64,5 +64,9 @@ h2 {
     opacity: 0;
     animation: fadeIn 2s 1.2s forwards;
     animation-fill-mode: forwards;
+
+    &:hover{
+      opacity:0;
+    }
   }
 }
