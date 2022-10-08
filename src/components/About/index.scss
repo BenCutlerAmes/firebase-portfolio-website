@@ -7,6 +7,9 @@
   position: absolute;
   right: 0%;
   overflow: hidden;
+  opacity: 0;
+  animation: fadeIn 1s 1.2s;
+  animation-fill-mode: forwards;
 }
 
 .cube-spinner {

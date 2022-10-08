@@ -4,6 +4,7 @@ import { faCss3, faHtml5, faJava, faJs, faPython, faReact } from '@fortawesome/f
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
+import Loader from 'react-loaders'
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -14,6 +15,7 @@ const About = () => {
     
 
   return (
+    <>
     <div className="conatainer about-page">
       <div className="text-zone">
         <h1>
@@ -68,6 +70,8 @@ const About = () => {
 
       </div>
     </div>
+    <Loader type='ball-pulse-sync'/>
+    </>
   )
 }
 

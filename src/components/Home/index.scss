@@ -61,5 +61,8 @@ h2 {
     width: 70%;
     margin:  10%;
     border-radius: 20px;
+    opacity: 0;
+    animation: fadeIn 2s 1.2s forwards;
+    animation-fill-mode: forwards;
   }
 }

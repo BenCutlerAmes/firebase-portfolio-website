@@ -4,8 +4,10 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters/index'
 
+
 import logo from '../../assets/images/bigface.png'
 import headshot from '../../assets/images/headshot.jpeg'
+import Loader from 'react-loaders'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -32,6 +34,7 @@ const Home = () => {
   }, 3000)
 
   return (
+    <>
     <div className="container home-page">
       <div className="text-zone">
         <h1>
@@ -58,6 +61,9 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <Loader type='ball-pulse-sync'/>
+
+    </>
   )
 }
 

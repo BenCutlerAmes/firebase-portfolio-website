@@ -4,6 +4,8 @@ import emailjs from '@emailjs/browser'
 
 import React, { useRef, useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import Loader from 'react-loaders'
+
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -93,6 +95,8 @@ const Contact = () => {
           
         </div>
       </div>
+    <Loader type='ball-pulse-sync'/>
+
     </>
   )
 }
