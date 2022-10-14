@@ -11,5 +11,6 @@ It was a chance for me to practise and develop my front-end skills, as well as p
 
 ## Next Steps
 
-My next big task with this page is to make it more mobile friendly. There
+My next big task with this page is to make it more mobile friendly. 
+
 
