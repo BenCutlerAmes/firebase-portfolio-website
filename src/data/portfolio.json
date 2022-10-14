@@ -1,0 +1,22 @@
+{
+    "portfolio":[
+        {
+        "cover":"/portfolio/gym-app-screenshot.png",
+        "title":"Gym Management App",
+        "description":"Python, PostgreSQL, Flask, PsychoPG2",
+        "url":"https://github.com/BenCutlerAmes/Gym_Management_App"
+    },
+    {
+        "cover":"/portfolio/simpsons-toptrumps-screenshot.png",
+        "title":"Simpsons Top Trumps",
+        "description":"Reach, Node.js MongoDB, Express",
+        "url":"https://github.com/BenCutlerAmes/Simpsons-Top-Trumps"
+    },
+    {
+        "cover":"/portfolio/portfolio-screenshot.png",
+        "title":"Portfolio Website",
+        "description":"React, Firebase, Animate.css, Loaders.css, SCSS",
+        "url":"https://github.com/BenCutlerAmes/firebase-portfolio-website"
+    }
+    ]
+}

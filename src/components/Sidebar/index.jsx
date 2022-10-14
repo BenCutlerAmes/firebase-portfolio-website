@@ -2,7 +2,7 @@ import './index.scss'
 
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import logo from '../../assets/images/bigface.png'
+import logo from '../../assets/images/bigfacetrans.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouseChimney } from '@fortawesome/free-solid-svg-icons'
 import { faIdCardClip } from '@fortawesome/free-solid-svg-icons'

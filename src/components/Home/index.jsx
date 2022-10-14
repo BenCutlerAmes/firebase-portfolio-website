@@ -55,9 +55,7 @@ const Home = () => {
           <div className="front">
             <img src={logo} alt="logo" />
           </div>
-          <div className="back">
-            <img src={headshot} alt="" />
-          </div>
+          
         </div>
       </div>
     </div>
